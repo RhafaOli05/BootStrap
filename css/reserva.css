@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF2D1;
+    margin: 0;
+    padding: 20px;
+}
+
+.dropdown-menu{
+    background-color: #FFF2D1;
+  }
+
+  .dropdown-item{
+    color: #553200;
+}
+
+h1{
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #eeb757;
+    font-size: 40px;
+    top: 3px;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+  #logo{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #111336;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+}
+.P{
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #eeb757;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+}
+
+.comments{
+    width: 100%;
+}
+
+a{
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #eeb757;
+}
+
+.letra{
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #eeb757;
+}
+
+.reser{
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #111336;
+}
+
+@media(min-width: 1919px){
+    ul{
+        justify-content: center;
+    }
+}
+@media(max-width: 1000px){
+    ul{
+        justify-content: center;
+    }
+}
